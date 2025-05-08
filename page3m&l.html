@@ -1,0 +1,181 @@
+<link href="main.css" rel="stylesheet">
+<div class="HEADER">
+    <nav>
+      <ul>
+        <div class="LOGOP2">
+        <img src="logo.jpg">
+        </div>
+        <li><a href="index.html">HOME</a></li>
+        <li>
+          <a href="#">EXPLORE ▼</a>
+          <ul class="dropdown">
+            <li><a href="page2m&l.html">Characters</a></li>
+            <li><a href="page3m&l.html">Combat</a></li>
+            <li><a href="page4m&l.html">Overworld</a></li>
+            <li><a href="page5m&l.html">Sales and Business Impact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+<h1>COMBAT</h1>
+<title>Mario & Luigi: Bowsers' Inside Story - Combat</title>
+
+<div class="video">
+  <video id="myvideo" width="1000" autoplay muted playsinline loop>
+    <source src="Combatvideo.mp4" type="video/mp4">
+  </video>
+  
+  <p class="caption">Original gameplay recorded on Nintendo 3DS System. Edited for improved viewing experience.</p>
+
+  <input type="range" id="volumeslider" min="0" max="1" step="0.01" value="0">
+
+  <script>
+    const video = document.getElementById('myvideo');
+    const slider = document.getElementById('volumeslider');
+
+    video.volume = slider.value;
+
+    slider.addEventListener('input', () => {
+      video.volume = slider.value;
+      if (video.volume == 0) {
+        video.muted = true;
+      } else {
+        video.muted = false;
+      }
+    });
+  </script>
+
+
+</div>
+
+
+
+<h2 class="actioncommandcrtrheading">HOW COMBAT WORKS</h2>
+
+
+<div class="synopsiscont2">
+  <p class="synopsis2">
+    Touch an enemy in the overworld to enter combat! Combat in Mario & Luigi: Bowser's Inside Story uses an RPG (Role Player Game) combat system. This works similar to a card game,
+    where you, the player gets to use their attacks on their turn, before enemies subsequently get to use their attacks on their turn. However, unlike the traditional RPG combat system, in this game,
+    you have the chance to dodge and even counterattack during the enemies turn, as seen in the above video.
+  </p>
+</div>
+
+
+<h2 class="actioncommandcrtrheading">MARIO AND LUIGI: ACTION COMMANDS</h2>
+
+<div class="actioncontainer">
+  <p class="item">
+    <img src="jumpcmdblock.jpg"><br>
+    <br>
+    <strong>JUMP</strong><br>
+    <br>
+    Mario and Luigi leap into the air before stomping on their foes head with a crushing force. By timing your inputs, press jump when the Bros make contact with the enemy and they will jump on top of this foe again, doubling the damage and style!
+  </p>
+
+  <p class="item">
+    <img src="hammercmdblock.jpg"><br>
+    <br>
+    <strong>HAMMER</strong><br>
+    <br>
+    The Bros make use of their trusty mallet to promptly bonk enemy's on the head, a powerful tactic to defeat enemies with spiky shells! By timing your inputs, release your hammer swing at the apex of the windup to maximise the damage.
+  </p>
+
+  <p class="item">
+    <img src="broscmdblock.jpg"><br>
+    <br>
+    <strong>BROS ATTACKS</strong><br>
+    <br>
+    Powerful attacks such as kicking a green shell, eat up and slam Luigi onto the enemies, or shoot the bros out of wooden cannons are perfect for taking down the most powerful foes. All of these moves involve Mario and Luigi working together to bring the pain!
+  </p>
+</div>
+
+<img class="actionbig" src="fatluigi.jpg">
+
+<h2 class="actioncommandcrtrheading">BOWSER: ACTION COMMANDS</h2>
+
+<div class="actioncontainer">
+  <p class="item">
+    <img src="punchcmdblock.jpg"><br>
+    <br>
+    <strong>PUNCH</strong><br>
+    <br>
+    Bowser is known for his strength, so it's no surprise that he relies on his fists in combat. By timing your inputs, unleash an almighty punch to slam the full weight of Bowser's body and deliver a ground shaking hit, far more powerful than anything the Bros can do!
+  </p>
+
+  <p class="item">
+    <img src="vacuumcmdblock.jpg"><br>
+    <br>
+    <strong>VACUUM</strong><br>
+    <br>
+    Enemies annoying you? Simply use the power of the recently consumed vacuum shroom to inhale any pesky foes, and leave the Bros to deal with them instead. Spam the action button to consume as many enemies as possible, perfect for dealing with tough crowds.
+  </p>
+
+  <p class="item">
+    <img src="brawlcmdblock.jpg"><br>
+    <br>
+    <strong>BRAWL ATTACKS</strong><br>
+    <br>
+    As Bowser begins to regain control of his minions from Fawful's grasp, he can call upon their aid during battles. Send in a barrage of Bo-bombs, muster the destructive spells of Magikoopas, or call upon the strength of Shy guys to propel Bowser at the enemies.
+  </p>
+</div>
+
+<img class="actionbig" src="goombaarmy.jpg">
+
+<h2 class="actioncommandcrtrheading">ADDITIONAL ACTION COMMANDS</h2>
+
+<p>
+  Here are some more commands that both Bowser and the Bros can use in combat:
+</p>
+
+<div class="actioncontainer2">
+  <p class="item2">
+    <img src="itemcmdblock.jpg"><br>
+    <br>
+    <strong>ITEMS</strong><br>
+    <br>
+    The items command block lets Bowser and the Bros use helpful<br>
+    support items such as chicken drumsticks for Bowser, and<br>
+    mushrooms for the Bros in order to recover health.
+  </p>
+
+  <p class="item2">
+    <img src="fleecmdblock.jpg"><br>
+    <br>
+    <strong>FLEE</strong><br>
+    <br>
+    Backed up again a corner, fighting difficult enemies or on low health?<br>
+    Use the flee command for a chance to abandon the battle an escape.<br>
+    However, be careful, as some battles are inescapable.
+  </p>
+</div>
+
+<h2 class="actioncommandcrtrheading">LEVELLING UP</h2>
+<p>
+  Like most other RPGs, Mario & Luigi: Bowser's Inside Story features a levelling up system. Upon defeating any enemy in combat, Bowser and the Bros<br>
+  will gain experience points. After enough have been gained, all three characters will level up, resulting in higher health, damage, speed and defence.<br>
+  <br>
+</p>
+
+<img class="lvlupscrn" src="lvlupscrn.jpg">
+
+
+
+
+
+
+
+<div class="footer">
+  <p><br>
+    © Nintendo. Mario & Luigi: Bowser’s Inside Story assets used under fair use for fan purposes.<br>
+    Not affiliated with Nintendo.<br>
+  <br>
+</p>
+<img class="footerimg" src="bowserjnrfooter.jpg" alt="footerimg">
+</div>
+
+
+
+
