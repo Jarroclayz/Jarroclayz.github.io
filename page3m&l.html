@@ -1,181 +1,177 @@
-<link href="main.css" rel="stylesheet">
-<div class="HEADER">
-    <nav>
-      <ul>
-        <div class="LOGOP2">
-        <img src="logo.jpg">
-        </div>
-        <li><a href="index.html">HOME</a></li>
-        <li>
-          <a href="#">EXPLORE ▼</a>
-          <ul class="dropdown">
-            <li><a href="page2m&l.html">Characters</a></li>
-            <li><a href="page3m&l.html">Combat</a></li>
-            <li><a href="page4m&l.html">Overworld</a></li>
-            <li><a href="page5m&l.html">Sales and Business Impact</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
+<link href="main.css" rel="stylesheet">                                           <!--Links this page to the main.css file to apply styles to this page-->
+<div class="HEADER">                                                              <!--Creates a division called 'HEADER'-->
+    <nav>                                                                         <!--The beginning of the navigation menu-->
+      <ul>                                                                        <!--Defines the beginning of an unordered list-->
+        <div class="LOGOP2">                                                      <!--Creates a division called 'LOGOP2'-->
+        <img src="logo.jpg">                                                      <!--Creates a holding space for the image titled logo.jpg-->
+        </div>                                                                    <!--Marks the end of a division-->
+        <li><a href="index.html">HOME</a></li>                                    <!--Creates a list item that contains a link to the homepage-->
+        <li>                                                                      <!--Marks the beginning of a series of list items-->
+          <a href="#">EXPLORE ▼</a>                                               <!--Creates a link for 'EXPLORE ▼'-->
+          <ul class="dropdown">                                                   <!--Defines the beginning of an unordered list, titled "dropdown"-->
+            <li><a href="page2m&l.html">Characters</a></li>                       <!--Creates a link to the 'Characters' webpage-->
+            <li><a href="page3m&l.html">Combat</a></li>                           <!--Creates a link to the 'Combat' webpage-->
+            <li><a href="page4m&l.html">Overworld</a></li>                        <!--Creates a link to the 'Overworld' webpage-->
+            <li><a href="page5m&l.html">Sales and Business Impact</a></li>        <!--Creates a link to the 'Sales and Business Impact' webpage-->
+          </ul>                                                                   <!--Marks the end of an unordered list-->
+        </li>                                                                     <!--Marks the end of a series of list items-->
+      </ul>                                                                       <!--Marks the end of an unordered list-->
+    </nav>                                                                        <!--Marks the end of a navigation menu-->
+  </div>                                                                          <!--Marks the end of a division-->
 
-<h1>COMBAT</h1>
-<title>Mario & Luigi: Bowsers' Inside Story - Combat</title>
+<h1>COMBAT</h1>                                                                   <!--Creates a heading titled 'COMBAT'-->
+<title>Mario & Luigi: Bowsers' Inside Story - Combat</title>                      <!--Sets the title of the website to 'Mario & Luigi: Bowsers' Inside Story - Combat'-->
 
-<div class="video">
-  <video id="myvideo" width="1000" autoplay muted playsinline loop>
-    <source src="Combatvideo.mp4" type="video/mp4">
-  </video>
+<div class="video">                                                               <!--Creates a division called 'video'-->
+  <video id="myvideo" width="1000" autoplay muted playsinline loop>               <!--Gives the video the id 'myvideo', sets it's width to 1000, sets it to automatically play and loop with volume muted-->
+    <source src="Combatvideo.mp4" type="video/mp4">                               <!--Source file for the combat video-->
+  </video>                                                                        <!--Marks the end of a video 'holding' section-->
   
-  <p class="caption">Original gameplay recorded on Nintendo 3DS System. Edited for improved viewing experience.</p>
+  <p class="caption">Original gameplay recorded on Nintendo 3DS System. Edited for improved viewing experience.</p> <!--Marks the beggining and ending of paragraph text, of class 'caption'-->
 
-  <input type="range" id="volumeslider" min="0" max="1" step="0.01" value="0">
+  <input type="range" id="volumeslider" min="0" max="1" step="0.01" value="0">    <!--Code for the volume slider input-->
 
-  <script>
-    const video = document.getElementById('myvideo');
-    const slider = document.getElementById('volumeslider');
+  <script>                                                                        //Marks the begging of Javascript code                               
+    const video = document.getElementById('myvideo');                             //Gets the video element by it's ID                      
+    const slider = document.getElementById('volumeslider');                       //Gets the volume slider by it's ID
 
-    video.volume = slider.value;
+    video.volume = slider.value;                                                  //Sets the initial video volume based upon the slider value
 
-    slider.addEventListener('input', () => {
-      video.volume = slider.value;
-      if (video.volume == 0) {
+    slider.addEventListener('input', () => {                                      //Adds an event to update volume when slider is changed
+      video.volume = slider.value;                                                //Updates volume to match the slider's value
+      if (video.volume == 0) {                                                    //Lines 42 - 47: Mute the video if volume is 0, otherwise, unmute
         video.muted = true;
       } else {
         video.muted = false;
       }
     });
-  </script>
+  </script>                                                                       <!--Marks the end of Javascript code-->
 
 
-</div>
-
-
-
-<h2 class="actioncommandcrtrheading">HOW COMBAT WORKS</h2>
-
-
-<div class="synopsiscont2">
-  <p class="synopsis2">
-    Touch an enemy in the overworld to enter combat! Combat in Mario & Luigi: Bowser's Inside Story uses an RPG (Role Player Game) combat system. This works similar to a card game,
-    where you, the player gets to use their attacks on their turn, before enemies subsequently get to use their attacks on their turn. However, unlike the traditional RPG combat system, in this game,
-    you have the chance to dodge and even counterattack during the enemies turn, as seen in the above video.
-  </p>
-</div>
-
-
-<h2 class="actioncommandcrtrheading">MARIO AND LUIGI: ACTION COMMANDS</h2>
-
-<div class="actioncontainer">
-  <p class="item">
-    <img src="jumpcmdblock.jpg"><br>
-    <br>
-    <strong>JUMP</strong><br>
-    <br>
-    Mario and Luigi leap into the air before stomping on their foes head with a crushing force. By timing your inputs, press jump when the Bros make contact with the enemy and they will jump on top of this foe again, doubling the damage and style!
-  </p>
-
-  <p class="item">
-    <img src="hammercmdblock.jpg"><br>
-    <br>
-    <strong>HAMMER</strong><br>
-    <br>
-    The Bros make use of their trusty mallet to promptly bonk enemy's on the head, a powerful tactic to defeat enemies with spiky shells! By timing your inputs, release your hammer swing at the apex of the windup to maximise the damage.
-  </p>
-
-  <p class="item">
-    <img src="broscmdblock.jpg"><br>
-    <br>
-    <strong>BROS ATTACKS</strong><br>
-    <br>
-    Powerful attacks such as kicking a green shell, eat up and slam Luigi onto the enemies, or shoot the bros out of wooden cannons are perfect for taking down the most powerful foes. All of these moves involve Mario and Luigi working together to bring the pain!
-  </p>
-</div>
-
-<img class="actionbig" src="fatluigi.jpg">
-
-<h2 class="actioncommandcrtrheading">BOWSER: ACTION COMMANDS</h2>
-
-<div class="actioncontainer">
-  <p class="item">
-    <img src="punchcmdblock.jpg"><br>
-    <br>
-    <strong>PUNCH</strong><br>
-    <br>
-    Bowser is known for his strength, so it's no surprise that he relies on his fists in combat. By timing your inputs, unleash an almighty punch to slam the full weight of Bowser's body and deliver a ground shaking hit, far more powerful than anything the Bros can do!
-  </p>
-
-  <p class="item">
-    <img src="vacuumcmdblock.jpg"><br>
-    <br>
-    <strong>VACUUM</strong><br>
-    <br>
-    Enemies annoying you? Simply use the power of the recently consumed vacuum shroom to inhale any pesky foes, and leave the Bros to deal with them instead. Spam the action button to consume as many enemies as possible, perfect for dealing with tough crowds.
-  </p>
-
-  <p class="item">
-    <img src="brawlcmdblock.jpg"><br>
-    <br>
-    <strong>BRAWL ATTACKS</strong><br>
-    <br>
-    As Bowser begins to regain control of his minions from Fawful's grasp, he can call upon their aid during battles. Send in a barrage of Bo-bombs, muster the destructive spells of Magikoopas, or call upon the strength of Shy guys to propel Bowser at the enemies.
-  </p>
-</div>
-
-<img class="actionbig" src="goombaarmy.jpg">
-
-<h2 class="actioncommandcrtrheading">ADDITIONAL ACTION COMMANDS</h2>
-
-<p>
-  Here are some more commands that both Bowser and the Bros can use in combat:
-</p>
-
-<div class="actioncontainer2">
-  <p class="item2">
-    <img src="itemcmdblock.jpg"><br>
-    <br>
-    <strong>ITEMS</strong><br>
-    <br>
-    The items command block lets Bowser and the Bros use helpful<br>
-    support items such as chicken drumsticks for Bowser, and<br>
-    mushrooms for the Bros in order to recover health.
-  </p>
-
-  <p class="item2">
-    <img src="fleecmdblock.jpg"><br>
-    <br>
-    <strong>FLEE</strong><br>
-    <br>
-    Backed up again a corner, fighting difficult enemies or on low health?<br>
-    Use the flee command for a chance to abandon the battle an escape.<br>
-    However, be careful, as some battles are inescapable.
-  </p>
-</div>
-
-<h2 class="actioncommandcrtrheading">LEVELLING UP</h2>
-<p>
-  Like most other RPGs, Mario & Luigi: Bowser's Inside Story features a levelling up system. Upon defeating any enemy in combat, Bowser and the Bros<br>
-  will gain experience points. After enough have been gained, all three characters will level up, resulting in higher health, damage, speed and defence.<br>
-  <br>
-</p>
-
-<img class="lvlupscrn" src="lvlupscrn.jpg">
+</div>                                                                            <!--Marks the end of a division-->
 
 
 
+<h2 class="actioncommandcrtrheading">HOW COMBAT WORKS</h2>                        <!--Creates a heading of size 2, of class 'actioncommandcrtrheading'-->
+
+
+<div class="synopsiscont2">                                                       <!--Creates a division called 'synopsiscont2'-->
+  <p class="synopsis2">                                                           <!--Marks the beggining of paragraph text, of class 'synopsis2'-->
+    Touch an enemy in the overworld to enter combat! Combat in Mario & Luigi: Bowser's Inside Story uses an RPG (Role Player Game) combat system. This works similar to a card game,                    <!--Contains paragraph text-->
+    where you, the player gets to use their attacks on their turn, before enemies subsequently get to use their attacks on their turn. However, unlike the traditional RPG combat system, in this game, <!--Contains paragraph text-->
+    you have the chance to dodge and even counterattack during the enemies turn, as seen in the above video.                                                                                            <!--Contains paragraph text-->
+  </p>                                                                            <!--Marks the end of paragraph text-->
+</div>                                                                            <!--Marks the end of a division-->
+
+
+<h2 class="actioncommandcrtrheading">MARIO AND LUIGI: ACTION COMMANDS</h2>        <!--Creates a heading of size 2, of class 'actioncommandcrtrheading'-->
+
+<div class="actioncontainer">                                                     <!--Creates a division called 'actioncontainer'-->
+  <p class="item">                                                                <!--Marks the beggining of paragraph text-->
+    <img src="jumpcmdblock.jpg"><br>                                              <!--Creates a holding space for an image titled 'jumpcmdblock.jpg', indicates a line break-->
+    <br>                                                                          <!--Indicates a line break-->
+    <strong>JUMP</strong><br>                                                     <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                          <!--Indicates a line break-->
+    Mario and Luigi leap into the air before stomping on their foes head with a crushing force. By timing your inputs, press jump when the Bros make contact with the enemy and they will jump on top of this foe again, doubling the damage and style! <!--Contains paragraph text-->
+  </p>                                                                            <!--Marks the end of paragraph text-->
+
+  <p class="item">                                                                <!--Marks the beggining of paragraph text-->         
+    <img src="hammercmdblock.jpg"><br>                                            <!--Creates a holding space for an image titled 'hammercmdblock.jpg', indicates a line break-->
+    <br>                                                                          <!--Indicates a line break-->
+    <strong>HAMMER</strong><br>                                                   <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                          <!--Indicates a line break-->
+    The Bros make use of their trusty mallet to promptly bonk enemy's on the head, a powerful tactic to defeat enemies with spiky shells! By timing your inputs, release your hammer swing at the apex of the windup to maximise the damage.  <!--Contains paragraph text-->
+  </p>                                                                            <!--Marks the end of paragraph text-->
+
+  <p class="item">                                                                 <!--Marks the beggining of paragraph text-->
+    <img src="broscmdblock.jpg"><br>                                               <!--Creates a holding space for an image titled 'broscmdblock.jpg', indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    <strong>BROS ATTACKS</strong><br>                                              <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    Powerful attacks such as kicking a green shell, eat up and slam Luigi onto the enemies, or shoot the bros out of wooden cannons are perfect for taking down the most powerful foes. All of these moves involve Mario and Luigi working together to bring the pain!  <!--Contains paragraph text--><!--Contains paragraph text-->
+  </p>                                                                             <!--Marks the end of paragraph text-->
+</div>                                                                             <!--Marks the end of a divsion-->
+
+<img class="actionbig" src="fatluigi.jpg">                                         <!--Creates a holding space for an image titled 'fatluigi.jpg'-->
+
+<h2 class="actioncommandcrtrheading">BOWSER: ACTION COMMANDS</h2>                  <!--Creates a heading of size 2, of class 'actioncommandcrtrheading'-->
+
+<div class="actioncontainer">                                                      <!--Creates a division called 'actioncontainer'-->
+  <p class="item">                                                                 <!--Marks the beggining of paragraph text-->
+    <img src="punchcmdblock.jpg"><br>                                              <!--Creates a holding space for an image titled 'punchcmdblock.jpg', indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    <strong>PUNCH</strong><br>                                                     <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                           <!--Indiates a line break-->
+    Bowser is known for his strength, so it's no surprise that he relies on his fists in combat. By timing your inputs, unleash an almighty punch to slam the full weight of Bowser's body and deliver a ground shaking hit, far more powerful than anything the Bros can do! <!--Contains paragraph text-->
+  </p>                                                                             <!--Marks the end of paragraph text-->
+
+  <p class="item">                                                                 <!--Marks the beggining of paragraph text-->
+    <img src="vacuumcmdblock.jpg"><br>                                             <!--Creates a holding space for an image titled 'vacuumcmdblock.jpg', indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    <strong>VACUUM</strong><br>                                                    <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    Enemies annoying you? Simply use the power of the recently consumed vacuum shroom to inhale any pesky foes, and leave the Bros to deal with them instead. Spam the action button to consume as many enemies as possible, perfect for dealing with tough crowds. <!--Contains paragraph text-->
+  </p>                                                                             <!--Marks the end of paragraph text-->
+
+  <p class="item">                                                                 <!--Marks the beggining of paragraph text-->
+    <img src="brawlcmdblock.jpg"><br>                                              <!--Creates a holding space for an image titled 'brawlcmdblock.jpg', indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    <strong>BRAWL ATTACKS</strong><br>                                             <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    As Bowser begins to regain control of his minions from Fawful's grasp, he can call upon their aid during battles. Send in a barrage of Bo-bombs, muster the destructive spells of Magikoopas, or call upon the strength of Shy guys to propel Bowser at the enemies.  <!--Contains paragraph text-->
+  </p>                                                                             <!--Marks the end of paragraph text-->
+</div>                                                                             <!--Marks the end of a divsion-->
+
+<img class="actionbig" src="goombaarmy.jpg">                                       <!--Creates a holding space for an image titled 'goombaarmy.jpg'-->
+
+<h2 class="actioncommandcrtrheading">ADDITIONAL ACTION COMMANDS</h2>               <!--Creates a heading of size 2, of class 'actioncommandcrtrheading'-->
+
+<p>                                                                                <!--Marks the beggining of paragraph text-->
+  Here are some more commands that both Bowser and the Bros can use in combat:     <!--Contains paragraph text-->
+</p>                                                                               <!--Marks the end of paragraph text-->
+
+<div class="actioncontainer2">                                                     <!--Creates a division called 'actioncontainer2'-->
+  <p class="item2">                                                                <!--Marks the beggining of paragraph text-->
+    <img src="itemcmdblock.jpg"><br>                                               <!--Creates a holding space for an image titled 'itemcmdblock.jpg'-->
+    <br>                                                                           <!--Indicates a line break-->
+    <strong>ITEMS</strong><br>                                                     <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    The items command block lets Bowser and the Bros use helpful<br>               <!--Contain paragraph text, indicates a line break-->
+    support items such as chicken drumsticks for Bowser, and<br>                   <!--Contain paragraph text, indicates a line break-->
+    mushrooms for the Bros in order to recover health.                             <!--Contain paragraph text-->
+  </p>                                                                             <!--Marks the end of paragraph text-->
+
+  <p class="item2">                                                                <!--Marks the beggining of paragraph text-->
+    <img src="fleecmdblock.jpg"><br>                                               <!--Creates a holding space for an image titled 'fleecmdblock.jpg'-->
+    <br>                                                                           <!--Indicates a line break-->
+    <strong>FLEE</strong><br>                                                      <!--Formats text to be bold, indicates a line break-->
+    <br>                                                                           <!--Indicates a line break-->
+    Backed up again a corner, fighting difficult enemies or on low health?<br>     <!--Contain paragraph text, indicates a line break-->
+    Use the flee command for a chance to abandon the battle an escape.<br>         <!--Contain paragraph text, indicates a line break-->
+    However, be careful, as some battles are inescapable.                          <!--Contain paragraph text-->
+  </p>                                                                             <!--Marks the end of paragraph text-->
+</div>                                                                             <!--Marks the end of a division-->
+
+<h2 class="actioncommandcrtrheading">LEVELLING UP</h2>                             <!--Creates a heading of size 2, of class 'actioncommandcrtrheading'-->
+<p>                                                                                <!--Marks the beggining of paragraph text-->
+  Like most other RPGs, Mario & Luigi: Bowser's Inside Story features a levelling up system. Upon defeating any enemy in combat, Bowser and the Bros<br>      <!--Contain paragraph text, indicates a line break-->
+  will gain experience points. After enough have been gained, all three characters will level up, resulting in higher health, damage, speed and defence.<br>  <!--Contain paragraph text, indicates a line break-->
+  <br>                                                                             <!--Indicates a line break-->
+</p>                                                                               <!--Marks the end of paragraph text-->
+
+<img class="lvlupscrn" src="lvlupscrn.jpg">                                        <!--Creates a holding space for an image titled 'lvlupscrn.jpg'-->
 
 
 
 
-<div class="footer">
-  <p><br>
-    © Nintendo. Mario & Luigi: Bowser’s Inside Story assets used under fair use for fan purposes.<br>
-    Not affiliated with Nintendo.<br>
-  <br>
-</p>
-<img class="footerimg" src="bowserjnrfooter.jpg" alt="footerimg">
-</div>
 
 
 
-
+<div class="footer">                                                               <!--Creates a division called 'footer'-->
+  <p><br>                                                                          <!--Marks the beginning of paragraph text, with a line break-->
+    © Nintendo. Mario & Luigi: Bowser’s Inside Story assets used under fair use for fan purposes.<br> <!--Contains text, indicates a line break-->
+    Not affiliated with Nintendo.<br>                                                                 <!--Contains text, indicates a line break-->
+  <br>                                                                             <!--Indicates a line break-->
+</p>                                                                               <!--Marks the end of paragraph text-->
+<img class="footerimg" src="bowserjnrfooter.jpg" alt="footerimg">                  <!--Creates a holding space for the image titled bowserjnrfooter.jpg-->
+</div>                                                                             <!--Marks the end of a division-->

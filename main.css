@@ -1,322 +1,317 @@
 /*First Page*/
 
-body {
-    background-image: url(greymushroom4.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-    background-size: 100px 100px;
-  }
+body {                                                                /*Styles content stored within the body*/
+    background-image: url(greymushroom4.jpg);                         /*Sets the background image to 'greymushroom4.jpg*/
+    background-repeat: repeat;                                        /*Makes the background image repeat across the page*/
+    background-size: contain;                                         /*Sets the background images size to 'contain'*/
+    background-size: 100px 100px;                                     /*Sets the background image size to 100 pixel by 100 pixels*/
+  }                                                                   /*Marks the end of a styling section*/
 
-h1 {
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 10px;
-}
+h1 {                                                                  /*Styles all 'header 1' contents*/
+    text-align: center;                                               /*Center aligns text*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+    padding-top: 10px;                                                /*Sets the top padding to 10 pixels*/
+}                                                                     /*Marks the end of a styling section*/
 
-h2 {
-  text-align: center;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-top: 10px;
-}
+h2 {                                                                  /*Styles all 'header 2' contents*/
+  text-align: center;                                                 /*Center aligns text*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  padding-top: 10px;                                                  /*Sets the top padding to 10 pixels*/
+}                                                                     /*Marks the end of a styling section*/
 
-.HEADER{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  background-color: red;
+.HEADER{                                                              /*Styles content of class 'HEADER'*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  position: sticky;                                                   /*Sets the header's position to sticky*/
+  top: 0;                                                             /*Sets the headers position to top, 0*/
+  z-index: 1000;                                                      /*Sets the z index to 1000*/
+  width: 100%;                                                        /*Sets the header's width to fill 100% of the screen*/
+  background-color: red;                                            /*Sets the background colour to red*/
 
- }
+ }                                                                    /*Marks the end of a styling section*/
 
- .LOGO {
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-  left: 0;
- }
+ .LOGO {                                                              /*Styles content of class 'LOGO'*/
+  text-align: left;                                                   /*Left aligns text*/
+  position: absolute;                                                 /*Sets the position to absoloute*/
+  bottom: 0;                                                          /*Sets the position to bottom, 0*/
+  left: 0;                                                            /*Sets the position to left, 0*/
+ }                                                                    /*Marks the end of a styling section*/
 
- .LOGO img {
-  height: 60px;
- }
+ .LOGO img {                                                          /*Styles content of class 'LOGO img'*/
+  height: 60px;                                                       /*Sets the image height to 60 pixels*/
+ }                                                                    /*Marks the end of a styling section*/
 
- .LOGOP2 {
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-  left: 0;
- }
+ .LOGOP2 {                                                            /*Styles content of class 'LOGOP2'*/
+  text-align: left;                                                   /*Left aligns text*/
+  position: absolute;                                                 /*Sets the position to absoloute*/
+  bottom: 0;                                                          /*Sets the position to bottom, 0*/
+  left: 0;                                                            /*Sets the position to left, 0*/
+ }                                                                    /*Marks the end of a styling section*/
 
- .LOGOP2 img {
-  height: 60px;
- }
+ .LOGOP2 img {                                                        /*Styles content of class 'LOGOP2 img'*/
+  height: 60px;                                                       /*Sets the image height to 60 pixels*/
+ }                                                                    /*Marks the end of a styling section*/
 
- .LOGOP3 {
-  text-align: left;
-  transform: translate(-919.5px, 34.75px);
- }
+ .LOGOP3 {                                                            /*Styles content of class 'LOGOP3'*/
+  text-align: left;                                                   /*Left aligns text*/
+  transform: translate(-919.5px, 34.75px);                            /*Translates the image's position -919.5 pixels to the left and 34.75 pixels down*/
+ }                                                                    /*Marks the end of a styling section*/
 
- .LOGOP3 img {
-  height: 60px;
- }
+ .LOGOP3 img {                                                        /*Styles content of class 'LOGOP3 img'*/
+  height: 60px;                                                       /*Sets the image height to 60 pixels*/
+ }                                                                    /*Marks the end of a styling section*/
 
 
- ul{
-  list-style: none;
-  background: transparent;
-  margin: 0;
-  padding-right: 1rem;
-  text-align: right;
- }
+ ul{                                                                  /*Styles content of unlisted items*/
+  list-style: none;                                                   /*Sets the list style to none*/
+  background: transparent;                                            /*Makes the background see through*/
+  margin: 0;                                                          /*Sets the top margin to 0 pixels*/
+  padding-right: 1rem;                                                /*Sets the right padding to 1 root em*/
+  text-align: right;                                                  /*Right aligns text*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li{
-  display: inline-block;
-  position: relative;
-  transform: translate(0px, -10px);
-  padding-top: 15px;
- }
+ ul li{                                                               /*Styles content of unlisted list items*/
+  display: inline-block;                                              /*Sets the display to inline-block*/
+  position: relative;                                                 /*Sets the position to relative*/
+  transform: translate(0px, -10px);                                   /*Translates the image 0 pixels left, and -10 pixels down*/
+  padding-top: 15px;                                                  /*Sets the top padding to 15 pixels*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li a {
-  display: block;
-  padding: 20px 25px;
-  color: white;
-  text-decoration: none;
-  text-align: center; 
-  font-size: 15px;
- }
+ ul li a {                                                            /*Styles the content of unlisted list 'a' items*/
+  display: block;                                                     /*Sets the display to block*/
+  padding: 20px 25px;                                                 /*Sets the padding to 20 pixels top, 25 pixels right*/
+  color: white;                                                     /*Sets the text color to white*/
+  text-decoration: none;                                              /*Sets text to have no decoration*/
+  text-align: center;                                                 /*Center aligns text*/
+  font-size: 15px;                                                    /*Sets the font size to 15 pixels*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li ul.dropdown li{
-  display: block;
- }
+ ul li ul.dropdown li{                                                /*Styles the content of unlisted list ul.dropdown list items*/
+  display: block;                                                     /*Sets the display to block*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li ul.dropdown {
-  position: absolute;
-  left: auto;
-  right: 0;
-  background: #FF0000;
-  text-align: center;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transform: translateY(-10px);
-  transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
-  z-index: 999;
- }
+ ul li ul.dropdown {                                                  /*Styles the content of unlisted, list ul.dropdown items*/
+  position: absolute;                                                 /*Sets the position to absoloute*/
+  left: auto;                                                         /*Sets the left positioning to automatic*/
+  right: 0;                                                           /*Sets the right positioning to automatic*/
+  background: #FF0000;                                              /*Sets the background colour to red*/
+  text-align: center;                                                 /*Center aligns text*/
+  max-height: 0;                                                      /*Sets the max height to 0*/
+  opacity: 0;                                                         /*Sets the opacity to 0 (no opacity)*/
+  overflow: hidden;                                                   /*Sets overflow to hidden*/
+  transform: translateY(-10px);                                       /*Translates position by -10 pixels along the y axis*/
+  transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease; /*Creates a transitional colour change*/
+  z-index: 999;                                                       /*Sets the z-index to 999*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li ul.dropdown li a {
-  white-space: nowrap;
- }
+ ul li ul.dropdown li a {                                             /*Styles the content of unlisted, list, ul.dropdown, list a items*/
+  white-space: nowrap;                                                /*Sets the white space to no wrap*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li a:hover {
-  background: #FF3333;
- }
+ ul li a:hover {                                                      /*Styles the content of unlisted, list items when they are hovered over*/
+  background: #FF3333;                                              /*Sets the background colour to red*/
+ }                                                                    /*Marks the end of a styling section*/
 
- ul li:hover ul.dropdown {
-  max-height: 500px;
-  opacity: 1;
-  transform: translateY(0);
- }
+ ul li:hover ul.dropdown {                                            /*Styles the content of unlisted, list (hover) ul.dropdown items*/
+  max-height: 500px;                                                  /*Sets the maximum height to 500 pixels*/
+  opacity: 1;                                                         /*Sets the opacity to 1*/
+  transform: translateY(0);                                           /*Translates by 0 units along the y axis*/
+ }                                                                    /*Marks the end of a styling section*/
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*{                                                                    /*Styles the content of * items*/
+  margin: 0;                                                          /*Sets the margins to 0*/
+  padding: 0;                                                         /*Sets the padding to 0*/
+  box-sizing: border-box;                                             /*Sets the box sizing to 'border box'*/
+}                                                                     /*Marks the end of a styling section*/
 
-.container{
-  padding: 2rem;
-}
+.container{                                                           /*Styles the content of container items*/
+  padding: 2rem;                                                      /*Sets the padding to 2 root em*/
+}                                                                     /*Marks the end of a styling section*/
 
-.slider-wrapper{
-  position: relative;
-  max-width: 48rem;
-  margin: 0 auto;
-}
+.slider-wrapper{                                                      /*Styles the content of slider-wrapper items*/
+  position: relative;                                                 /*Sets the position to relative*/
+  max-width: 48rem;                                                   /*Sets the max width to 48 root em*/
+  margin: 0 auto;                                                     /*Sets the top margin to 0*/
+}                                                                     /*Marks the end of a styling section*/
 
-.slider{
-  display: flex;
-  aspect-ratio: 16/9;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+.slider{                                                             /*Styles the content of class 'slider'*/
+  display: flex;                                                     /*Displays content using flexbox*/
+  aspect-ratio: 16/9;                                                /*Sets the aspect ratio to 16:9*/
+  overflow-x: hidden;                                                /*Hides any horizontal overflow*/
+  scroll-snap-type: x mandatory;                                     /*Snaps scroll to x-axis positions mandatorily*/
+  scroll-behavior: smooth;                                           /*Enables smooth scrolling behaviour*/
   box-shadow: 0 1.5rem 3rem -0.75rem
-  hsla(0, 0%, 0%, 0.2);
-  border-radius: 0.5rem;
-  border: 5px solid white;
-}
+  hsla(0, 0%, 0%, 0.2);                                            /*Applies a shadow to the slider*/
+  border-radius: 0.5rem;                                             /*Rounds corners with 0.5 root em radius*/
+  border: 5px solid white;                                         /*Sets border to 5 pixels solid white*/
+}                                                                    /*Marks the end of a styling section*/                                                                
 
-.slider img{
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
-}
+.slider img{                                                         /*Styles all images inside elements with class 'slider'*/
+  flex: 1 0 100%;                                                    /*Sets flex grow to 1, flex shrink to 0, and flex basis to 100%*/
+  scroll-snap-align: start;                                          /*Aligns the scroll snap to the start of the container*/
+  object-fit: cover;                                                 /*Scales the image to cover its container without distortion*/
+}                                                                    /*Marks the end of a styling section*/
 
-.slider-nav{
-  display: flex;
-  column-gap: 1rem;
-  position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
+.slider-nav{                                                         /*Styles the navigation container of the slider*/
+  display: flex;                                                     /*Uses flexbox for layout*/
+  column-gap: 1rem;                                                  /*Sets horizontal gap between flex items to 1 root em*/
+  position: absolute;                                                /*Positions element absolutely relative to its first positioned ancestor*/
+  bottom: 1.25rem;                                                   /*Positions element 1.25 root em from the bottom*/
+  left: 50%;                                                         /*Positions element 50% from the left*/
+  transform: translateX(-50%);                                       /*Centers element horizontally by translating left 50% of its width*/
+  z-index: 1;                                                        /*Sets stacking order to 1*/
+}                                                                    /*Marks the end of a styling section*/
 
-.slider-nav a{
-  width: 0.5rem;
-  height: 0.5rem;
-  cursor: pointer;
-  border-radius: 50%;
-  background-color: #fff;
-  opacity: 0.75;
-  transition: opacity ease 0.25s;
-}
+.slider-nav a{                                                       /*Styles anchor elements inside the slider navigation*/
+  width: 0.5rem;                                                     /*Sets width to 0.5 root em*/
+  height: 0.5rem;                                                    /*Sets height to 0.5 root em*/
+  cursor: pointer;                                                   /*Changes cursor to pointer on hover*/
+  border-radius: 50%;                                                /*Makes elements circular*/
+  background-color: #fff;                                          /*Sets background color to white*/
+  opacity: 0.75;                                                     /*Sets opacity to 75%*/
+  transition: opacity ease 0.25s;                                    /*Adds transition effect on opacity over 0.25 seconds*/
+}                                                                    /*Marks the end of a styling section*/
 
-.slider-nav a:hover{
-  opacity: 1;
-}
+.slider-nav a:hover{                                                 /*Styles slider navigation anchors on hover*/
+  opacity: 1;                                                        /*Sets opacity to fully opaque on hover*/
+}                                                                    /*Marks the end of a styling section*/
 
-p {
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+p {                                                                  /*Styles all paragraph elements*/
+  text-decoration: none;                                             /*Removes text decoration*/
+  text-align: center;                                                /*Centers text horizontally*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button1 {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: blue;
-  color: white;
-  border: 2px solid white;
-  margin: 0;
-  box-shadow: 4px 4px 10px rgb(187, 187, 187)
-}
+.button1 {                                                           /*Styles elements with class 'button1'*/
+  border: none;                                                      /*Removes border*/
+  color: white;                                                    /*Sets text color to white*/
+  padding: 16px 32px;                                                /*Sets padding: 16 pixels top/bottom, 32 pixels left/right*/
+  text-align: center;                                                /*Centers text*/
+  text-decoration: none;                                             /*Removes text decoration*/
+  display: inline-block;                                             /*Displays as inline-block*/
+  font-size: 16px;                                                   /*Sets font size to 16 pixels*/
+  margin: 4px 2px;                                                   /*Sets margin: 4 pixels top/bottom, 2 pixels left/right*/
+  transition-duration: 0.4s;                                         /*Sets transition duration to 0.4 seconds*/
+  cursor: pointer;                                                   /*Changes cursor to pointer on hover*/
+  border-radius: 5px;                                                /*Rounds corners by 5 pixels*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: blue;                                          /*Sets background color to blue*/
+  color: white;                                                    /*Sets text color to white (redundant but explicit)*/
+  border: 2px solid white;                                         /*Sets border to 2 pixels solid white*/
+  margin: 0;                                                         /*Overrides margin to 0*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Adds a subtle box shadow*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button1:hover {
-  background-color: rgb(66, 66, 255);
-  color: white;
-}
+.button1:hover {                                                     /*Styles button1 on hover*/
+  background-color: rgb(66, 66, 255);                              /*Changes background to a brighter blue*/
+  color: white;                                                    /*Keeps text color white*/
+}                                                                    /*Marks the end of a styling section*/
 
+.button2 {                                                           /*Styles elements with class 'button2'*/
+  border: none;                                                      /*Removes border*/
+  color: white;                                                    /*Sets text color to white*/
+  padding: 16px 32px;                                                /*Sets padding*/
+  text-align: center;                                                /*Centers text*/
+  text-decoration: none;                                             /*Removes text decoration*/
+  display: inline-block;                                             /*Inline block display*/
+  font-size: 16px;                                                   /*Font size 16 pixels*/
+  margin: 4px 2px;                                                   /*Margin*/
+  transition-duration: 0.4s;                                         /*Transition duration*/
+  cursor: pointer;                                                   /*Pointer cursor*/
+  border-radius: 5px;                                                /*Rounded corners*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: red;                                           /*Background color red*/
+  color: white;                                                    /*Text color white*/
+  border: 2px solid white;                                         /*Border 2 pixels solid white*/
+  margin: 0;                                                         /*Override margin to 0*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Box shadow*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button2 {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: red;
-  color: white;
-  border: 2px solid white;
-  margin: 0;
-  box-shadow: 4px 4px 10px rgb(187, 187, 187)
-}
+.button2:hover {                                                     /*Styles button2 on hover*/
+  background-color: rgb(255, 70, 70);                              /*Changes background to lighter red*/
+  color: white;                                                    /*Keeps text color white*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button2:hover {
-  background-color: rgb(255, 70, 70);
-  color: white;
-}
+.button3 {                                                           /*Styles elements with class 'button3'*/
+  border: none;                                                      /*Removes border*/
+  color: white;                                                    /*Text color white*/
+  padding: 16px 32px;                                                /*Padding*/
+  text-align: center;                                                /*Centers text*/
+  text-decoration: none;                                             /*No text decoration*/
+  display: inline-block;                                             /*Inline block*/
+  font-size: 16px;                                                   /*Font size*/
+  margin: 4px 2px;                                                   /*Margin*/
+  transition-duration: 0.4s;                                         /*Transition duration*/
+  cursor: pointer;                                                   /*Pointer cursor*/
+  border-radius: 5px;                                                /*Rounded corners*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: orange;                                        /*Background color orange*/
+  color: white;                                                    /*Text color white*/
+  border: 2px solid white;                                         /*Border white*/
+  margin: 0;                                                         /*Override margin*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Box shadow*/
+}                                                                    /*Marks the end of a styling section*/
 
+.button3:hover {                                                     /*Styles button3 on hover*/
+  background-color: rgb(255, 191, 73);                             /*Changes background to lighter orange*/
+  color: white;                                                    /*Keeps text color white*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button3 {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: orange;
-  color: white;
-  border: 2px solid white;
-  margin: 0;
-  box-shadow: 4px 4px 10px rgb(187, 187, 187)
-}
+.button4 {                                                           /*Styles elements with class 'button4'*/
+  border: none;                                                      /*Removes border*/
+  color: white;                                                    /*Sets text color to white*/
+  padding: 16px 32px;                                                /*Padding: 16 pixels top/bottom, 32 pixels left/right*/
+  text-align: center;                                                /*Centers text*/
+  text-decoration: none;                                             /*No text decoration*/
+  display: inline-block;                                             /*Displays as inline-block*/
+  font-size: 16px;                                                   /*Font size 16 pixels*/
+  margin: 4px 2px;                                                   /*Margin*/
+  transition-duration: 0.4s;                                         /*Transition duration*/
+  cursor: pointer;                                                   /*Pointer cursor*/
+  border-radius: 5px;                                                /*Rounded corners*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: rgb(3, 226, 22);                               /*Background color bright green*/
+  color: white;                                                    /*Text color white*/
+  border: 2px solid white;                                         /*White border*/
+  margin: 0;                                                         /*Overrides margin to 0*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Box shadow*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button3:hover {
-  background-color: rgb(255, 191, 73);
-  color: white;
-}
+.button4:hover {                                                     /*Styles button4 on hover*/
+  background-color: rgb(103, 224, 113);                            /*Changes background to lighter green*/
+  color: white;                                                    /*Keeps text color white*/
+}                                                                    /*Marks the end of a styling section*/
 
+.BUTTONS {                                                           /*Styles container with class 'BUTTONS'*/
+  display: flex;                                                     /*Use flexbox*/
+  justify-content: center;                                           /*Center content horizontally*/
+  flex-direction: row;                                               /*Arrange children in a row*/
+  gap: 8px;                                                          /*Gap of 8 pixels between flex items*/
+  margin-top: 20px;                                                  /*Top margin 20 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button4 {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(3, 226, 22);
-  color: white;
-  border: 2px solid white;
-  margin: 0;
-  box-shadow: 4px 4px 10px rgb(187, 187, 187)
-}
+.footer {                                                            /*Styles footer section*/
+  position: relative;                                                /*Relative positioning*/
+  left: 0;                                                           /*Position from left 0*/
+  bottom: 0;                                                         /*Position from bottom 0*/
+  width: 100%;                                                       /*Full width*/
+  background-color: red;                                           /*Background red*/
+  color: white;                                                    /*Text white*/
+  text-align: center;                                                /*Centered text*/
+  margin-top: 40px;                                                  /*Top margin 40 pixels*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  font-size: 10;                                                     /*Font size 10 (missing unit, but kept as is)*/
+}                                                                    /*Marks the end of a styling section*/
 
-.button4:hover {
-  background-color: rgb(103, 224, 113);
-  color: white;
-}
+.footerimg {                                                         /*Styles image inside footer*/
+  bottom: 0;                                                         /*Position from bottom 0*/
+  right: 0;                                                          /*Position from right 0*/
+  height: 50px;                                                      /*Height 50 pixels*/
+  position: absolute;                                                /*Absolute positioning*/
+}                                                                    /*Marks the end of a styling section*/
 
-
-.BUTTONS {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 8px;
-  margin-top: 20px;
-}
-
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  margin-top: 40px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 10;
-}
-
-.footerimg {
-  bottom: 0;
-  right: 0;
-  height: 50px;
-  position: absolute;
-}
-
-
-.TITLEIMG {
-  height: 80px;
-}
+.TITLEIMG {                                                          /*Styles image with class TITLEIMG*/
+  height: 80px;                                                      /*Height 80 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
 
 
@@ -324,99 +319,99 @@ p {
 
 /*Second Page*/
 
-.crtrdescleft {
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 5px;
-  padding: 5px 2px 5px 2px;
-}
+.crtrdescleft {                                                      /*Styles content of class 'crtrdescleft'*/
+  text-decoration: none;                                             /*Removes any text decoration*/
+  text-align: center;                                                /*Center aligns text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: white;                                         /*Sets background color to white*/
+  border: 7px solid white;                                         /*Sets a 7 pixel solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Adds a shadow effect with specific offset and blur*/
+  border-radius: 5px;                                                /*Rounds the corners with 5 pixel radius*/
+  padding: 5px 2px 5px 2px;                                          /*Adds padding: 5 pixels top/bottom, 2 pixels left/right*/
+}                                                                    /*Marks the end of a styling section*/
 
-.crtrimageleft {
-  height: 300px;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 5px;
-  margin-right: 2.5px;
-}
+.crtrimageleft {                                                     /*Styles content of class 'crtrimageleft'*/
+  height: 300px;                                                     /*Sets the height to 300 pixels*/
+  border: 7px solid white;                                         /*Sets a 7 pixel solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Adds a shadow effect with specific offset and blur*/
+  border-radius: 5px;                                                /*Rounds the corners with 5 pixel radius*/
+  margin-right: 2.5px;                                               /*Adds right margin of 2.5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.crtrcontainerleft{
-  display: flex;
-  justify-content: center;
-  margin-left: 2.5px;
-}
+.crtrcontainerleft{                                                  /*Styles content of class 'crtrcontainerleft'*/
+  display: flex;                                                     /*Sets display mode to flex*/
+  justify-content: center;                                           /*Centers flex items horizontally*/
+  margin-left: 2.5px;                                                /*Adds left margin of 2.5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.crtrcontentrow {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
+.crtrcontentrow {                                                    /*Styles content of class 'crtrcontentrow'*/
+  display: flex;                                                     /*Sets display mode to flex*/
+  align-items: center;                                               /*Vertically centers flex items*/
+  gap: 5px;                                                          /*Sets gap between flex items to 5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
 
-.crtrdescright {
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 5px;
-  padding: 5px 2px 5px 2px;
-}
+.crtrdescright {                                                     /*Styles content of class 'crtrdescright'*/
+  text-decoration: none;                                             /*Removes any text decoration*/
+  text-align: center;                                                /*Center aligns text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: white;                                         /*Background color white*/
+  border: 7px solid white;                                         /*7 pixels solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Shadow effect with specific offset and blur*/
+  border-radius: 5px;                                                /*Rounded corners radius 5 pixels*/
+  padding: 5px 2px 5px 2px;                                          /*Padding: 5 pixels top/bottom, 2 pixels left/right*/
+}                                                                    /*Marks the end of a styling section*/
 
-.crtrimageright {
-  height: 300px;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 5px;
-  margin-right: 2.5px;
-}
+.crtrimageright {                                                    /*Styles content of class 'crtrimageright'*/
+  height: 300px;                                                     /*Height set to 300 pixels*/
+  border: 7px solid white;                                         /*7 pixels solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Shadow effect with offset and blur*/
+  border-radius: 5px;                                                /*Rounded corners radius 5 pixels*/
+  margin-right: 2.5px;                                               /*Right margin 2.5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.crtrcontainerright{
-  display: flex;
-  justify-content: center;
-  margin-left: 2.5px;
-}
+.crtrcontainerright{                                                 /*Styles content of class 'crtrcontainerright'*/
+  display: flex;                                                     /*Flexbox layout*/
+  justify-content: center;                                           /*Centers flex items horizontally*/
+  margin-left: 2.5px;                                                /*Left margin 2.5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.crtrcontentrow {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
+.crtrcontentrow {                                                    /*Styles content of class 'crtrcontentrow'*/
+  display: flex;                                                     /*Flexbox layout*/
+  align-items: center;                                               /*Vertically center flex items*/
+  gap: 5px;                                                          /*Gap of 5 pixels between flex items*/
+}                                                                    /*Marks the end of a styling section*/
 
-.BJheading {
-  margin-top: 50px;
-}
+.BJheading {                                                         /*Styles content of class 'BJheading'*/
+  margin-top: 50px;                                                  /*Top margin 50 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.BJandthegang {
-  height: 500px;
-  display: block;
-  margin: auto;
-}
+.BJandthegang {                                                      /*Styles content of class 'BJandthegang'*/
+  height: 500px;                                                     /*Height set to 500 pixels*/
+  display: block;                                                    /*Display block*/
+  margin: auto;                                                      /*Auto margin (centers horizontally)*/
+}                                                                    /*Marks the end of a styling section*/
 
-.synopsis {
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  width: 95%;
-  background-color: white;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 0.5rem;
-}
+.synopsis {                                                          /*Styles content of class 'synopsis'*/
+  text-decoration: none;                                             /*No text decoration*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  text-align: center;                                                /*Center text*/
+  width: 95%;                                                        /*Width 95%*/
+  background-color: white;                                         /*Background white*/
+  border: 7px solid white;                                         /*7 pixels solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
+  border-radius: 0.5rem;                                             /*Rounded corners radius 0.5 root em*/
+}                                                                    /*Marks the end of a styling section*/
 
-.synopsiscont {
-  align-items: center;
-  text-align: center;
-  display: inline-block;
-  margin: auto;
-  justify-content: center;
-  display: flex;
-  padding-bottom: 25px;
-}
+.synopsiscont {                                                      /*Styles content of class 'synopsiscont'*/
+  align-items: center;                                               /*Center align items vertically*/
+  text-align: center;                                                /*Center text*/
+  display: inline-block;                                             /*Inline-block display*/
+  margin: auto;                                                      /*Auto margin*/
+  justify-content: center;                                           /*Center flex items horizontally*/
+  display: flex;                                                     /*Flex display (overrides inline-block)*/
+  padding-bottom: 25px;                                              /*Padding bottom 25 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
 
 
@@ -424,258 +419,258 @@ p {
 
 /*Third Page*/
 
-.video {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px;
-}
+.video {                                                             /*Styles content of class 'video'*/
+  margin: 0;                                                         /*Removes margin*/
+  height: 100vh;                                                     /*Height 100% of viewport height*/
+  display: flex;                                                     /*Flexbox layout*/
+  flex-direction: column;                                            /*Flex items arranged vertically*/
+  justify-content: center;                                           /*Center flex items vertically*/
+  align-items: center;                                               /*Center flex items horizontally*/
+  margin-top: 25px;                                                  /*Top margin 25 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-video {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 0.5rem;
-  border: 5px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  margin-bottom: 2px;
-}
+video {                                                              /*Styles the video element*/
+  max-width: 100%;                                                   /*Max width 100%*/
+  height: auto;                                                      /*Auto height to maintain aspect ratio*/
+  display: block;                                                    /*Block display*/
+  border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
+  border: 5px solid white;                                         /*5 pixels solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
+  margin-bottom: 2px;                                                /*Bottom margin 2 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-#volumeSlider {
-  margin-top: 10px;
-  width: 150px;
-  -webkit-appearance: none;
-  appearance: none;
-  background: red;
-  height: 5px;
-  border-radius: 5px;
-}
+#volumeSlider {                                                      /*Styles element with ID 'volumeSlider'*/
+  margin-top: 10px;                                                  /*Top margin 10 pixels*/
+  width: 150px;                                                      /*Width 150 pixels*/
+  -webkit-appearance: none;                                          /*Removes default webkit styling*/
+  appearance: none;                                                  /*Removes default styling*/
+  background: red;                                                 /*Background red*/
+  height: 5px;                                                       /*Height 5 pixels*/
+  border-radius: 5px;                                                /*Rounded corners 5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-#volumeSlider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 30px;
-  height: 30px;
-  background: red;
-  border-radius: 50%;
-  background-image: url('volume.jpg');
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
+#volumeSlider::-webkit-slider-thumb {                                /*Styles the slider thumb for webkit browsers*/
+  -webkit-appearance: none;                                          /*Removes default webkit styling*/
+  appearance: none;                                                  /*Removes default styling*/
+  width: 30px;                                                       /*Width 30 pixels*/
+  height: 30px;                                                      /*Height 30 pixels*/
+  background: red;                                                 /*Background red*/
+  border-radius: 50%;                                                /*Makes the slider icon circular*/
+  background-image: url('volume.jpg');                               /*Sets background image*/
+  background-size: cover;                                            /*Covers entire thumb area*/
+  background-position: center;                                       /*Centers background image*/
+  cursor: pointer;                                                   /*Cursor changes to pointer on hover*/
+}                                                                    /*Marks the end of a styling section*/
 
-#volumeSlider::-moz-range-thumb {
-  width: 30px;
-  height: 30px;
-  background: red;
-  border-radius: 50%;
-  background-image: url('volume.jpg');
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
 
-.caption {
-  font-size: 10;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
+#volumeSlider::-moz-range-thumb {                                    /*Styles the slider thumb for Firefox browsers*/
+  width: 30px;                                                       /*Width 30 pixels*/
+  height: 30px;                                                      /*Height 30 pixels*/
+  background: red;                                                 /*Background red*/
+  border-radius: 50%;                                                /*Circular thumb*/
+  background-image: url('volume.jpg');                               /*Background image*/
+  background-size: cover;                                            /*Cover entire thumb area*/
+  background-position: center;                                       /*Center background image*/
+  cursor: pointer;                                                   /*Pointer cursor on hover*/
+}                                                                    /*Marks the end of a styling section*/
 
-.actioncontainer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 2px;
-}
+.caption {                                                           /*Styles elements with class 'caption'*/
+  font-size: 10;                                                     /*Font size 10*/
+  margin-top: 10px;                                                  /*Top margin 10p pixels*/
+  margin-bottom: 15px;                                               /*Bottom margin 15 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.item {
-  width: 33.33%;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: white;
-  border: 2px solid white;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-}
+.actioncontainer {                                                   /*Styles elements with class 'actioncontainer'*/
+  display: flex;                                                     /*Flexbox layout*/
+  justify-content: space-between;                                    /*Space items evenly with space between*/
+  width: 100%;                                                       /*Full width*/
+  padding-top: 2px;                                                  /*Top padding 2 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.item img{
-  width: 50px;
-}
+.item {                                                              /*Styles elements with class 'item'*/
+  width: 33.33%;                                                     /*Width one third*/
+  text-align: center;                                                /*Center text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  margin-right: 10px;                                                /*Right margin 10 pixels*/
+  margin-left: 10px;                                                 /*Left margin 10 pixels*/
+  background-color: white;                                         /*Background white*/
+  border: 2px solid white;                                         /*2 pixels white border*/
+  border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
+}                                                                    /*Marks the end of a styling section*/
 
-.actioncontainer2 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 20px;
-}
+.item img{                                                           /*Styles images inside elements with class 'item'*/
+  width: 50px;                                                       /*Width 50 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.item2 {
-  width: 50%;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: white;
-  border: 2px solid white;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-}
+.actioncontainer2 {                                                  /*Styles elements with class 'actioncontainer2'*/
+  display: flex;                                                     /*Flexbox layout*/
+  justify-content: space-between;                                    /*Space items evenly with space between*/
+  width: 100%;                                                       /*Full width*/
+  padding-top: 20px;                                                 /*Top padding 20 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.item2 img{
-  width: 50px;
-}
+.item2 {                                                             /*Styles elements with class 'item2'*/
+  width: 50%;                                                        /*Width 50%*/
+  text-align: center;                                                /*Center text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  margin-right: 10px;                                                /*Right margin 10 pixels*/
+  margin-left: 10px;                                                 /*Left margin 10 pixels*/
+  background-color: white;                                         /*Background white*/
+  border: 2px solid white;                                         /*2 pixels white border*/
+  border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
+}                                                                    /*Marks the end of a styling section*/
 
-.actioncommandcrtrheading {
-  margin-top: 30px;
-  padding-bottom: 10px;
-}
+.item2 img{                                                          /*Styles images inside elements with class 'item2'*/
+  width: 50px;                                                       /*Width 50 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.actionbig {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 25px;
-  padding-top: 50px;
-}
+.actioncommandcrtrheading {                                          /*Styles elements with class 'actioncommandcrtrheading'*/
+  margin-top: 30px;                                                  /*Top margin 30 pixels*/
+  padding-bottom: 10px;                                              /*Bottom padding 10 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.lvlupscrn {
-  border-radius: 0.5rem;
-  border: 5px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  height: 300px;
-  display: block;
-  margin: 0 auto;
-}
+.actionbig {                                                         /*Styles elements with class 'actionbig'*/
+  width: 200px;                                                      /*Width 200 pixels*/
+  display: block;                                                    /*Block display*/
+  margin: 0 auto;                                                    /*Auto horizontal margin for centering*/
+  padding-bottom: 25px;                                              /*Bottom padding 25 pixels*/
+  padding-top: 50px;                                                 /*Top padding 50 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.synopsis2 {
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-bottom: 25px;
-  text-align: center;
-  width: 95%;
-}
+.lvlupscrn {                                                         /*Styles elements with class 'lvlupscrn'*/
+  border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
+  border: 5px solid white;                                         /*5 pixels solid white border*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
+  height: 300px;                                                     /*Height 300 pixels*/
+  display: block;                                                    /*Block display*/
+  margin: 0 auto;                                                    /*Auto horizontal margin for centering*/
+}                                                                    /*Marks the end of a styling section*/
 
-.synopsiscont2 {
-  align-items: center;
-  text-align: center;
-  display: inline-block;
-  margin: auto;
-  justify-content: center;
-  display: flex;
-}
+.synopsis2 {                                                         /*Styles elements with class 'synopsis2'*/
+  text-decoration: none;                                             /*No text decoration*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  padding-bottom: 25px;                                              /*Bottom padding 25 pixels*/
+  text-align: center;                                                /*Center text*/
+  width: 95%;                                                        /*Width 95%*/
+}                                                                    /*Marks the end of a styling section*/
 
+.synopsiscont2 {                                                     /*Styles elements with class 'synopsiscont2'*/
+  align-items: center;                                               /*Center items vertically*/
+  text-align: center;                                                /*Center text*/
+  display: inline-block;                                             /*Inline block display*/
+  margin: auto;                                                      /*Auto margin*/
+  justify-content: center;                                           /*Center items horizontally*/
+  display: flex;                                                     /*Flex display (overrides inline-block)*/
+}                                                                    /*Marks the end of a styling section*/
 
 
 
 
 /*Fourth Page*/
 
-.movecontainer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 2px;
-}
+.movecontainer {                                                     /*Styles elements with class 'movecontainer'*/
+  display: flex;                                                     /*Flexbox layout*/
+  justify-content: space-between;                                    /*Space items evenly with space between*/
+  width: 100%;                                                       /*Full width*/
+  padding-top: 2px;                                                  /*Top padding 2 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.itemM {
-  width: 33.33%;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 10px;
-  margin-left: 10px;
-}
+.itemM {                                                             /*Styles elements with class 'itemM'*/
+  width: 33.33%;                                                     /*Width one third*/
+  text-align: center;                                                /*Center text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  margin-right: 10px;                                                /*Right margin 10 pixels*/
+  margin-left: 10px;                                                 /*Left margin 10 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.movecontainer2 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 2px;
-}
+.movecontainer2 {                                                    /*Styles elements with class 'movecontainer2'*/
+  display: flex;                                                     /*Flexbox layout*/
+  justify-content: space-between;                                    /*Space items evenly with space between*/
+  width: 100%;                                                       /*Full width*/
+  padding-top: 2px;                                                  /*Top padding 2 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.itemM2 {
-  width: 33.33%;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 10px;
-  margin-left: 10px;
-}
+.itemM2 {                                                            /*Styles elements with class 'itemM2'*/
+  width: 33.33%;                                                     /*Width one third*/
+  text-align: center;                                                /*Center text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  margin-right: 10px;                                                /*Right margin 10 pixels*/
+  margin-left: 10px;                                                 /*Left margin 10 pixels*/
+}                                                                    /*Marks the end of a styling section*/
 
-.actionvid {
-display: inline-block;
-}
+.actionvid {                                                         /*Styles elements with class 'actionvid'*/
+  display: inline-block;                                             /*Inline-block display*/
+}                                                                    /*Marks the end of a styling section*/
 
-.itemMH {
-  width: 33.33%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 10px;
-  margin-left: 10px;
-  text-align: center;
-}
+.itemMH {                                                            /*Styles elements with class 'itemMH'*/
+  width: 33.33%;                                                     /*Width one third*/
+  display: flex;                                                     /*Flexbox layout*/
+  justify-content: center;                                           /*Center items horizontally*/
+  align-items: center;                                               /*Center items vertically*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  margin-right: 10px;                                                /*Right margin 10 pixels*/
+  margin-left: 10px;                                                 /*Left margin 10 pixels*/
+  text-align: center;                                                /*Center text*/
+}                                                                    /*Marks the end of a styling section*/
 
 
 
 
 /*Fifth Page*/
 
-.sales {
-display: block;
-margin: auto;
-border: 5px solid white;
-box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-width: 1000px;
-margin-top: 50px;
+.sales {                                                             /*Styles elements with class 'sales'*/
+display: block;                                                      /*Block layout*/
+margin: auto;                                                        /*Sets margins to auto*/
+border: 5px solid white;                                           /*Sets the border colour to solid, white and 5 pixels*/
+box-shadow: 0 0.375rem 0.75rem -0.1875rem;                           /*Creates a box shadow*/
+width: 1000px;                                                       /*Sets width to 1000 pixels*/
+margin-top: 50px;                                                    /*Sets top margin to 50 pixels*/
+}                                                                    /*Marks the end of a styling section*/
+
+.video2 {                                                            /*Styles elements with class 'video2'*/
+  margin: 0;                                                         /*Overides margins*/
+  height: 100vh;                                                     /*Sets video to 100 viewport height*/
+  display: flex;                                                     /*Sets display to flex*/
+  flex-direction: column;                                            /*Sets the flex direction to column*/
+  justify-content: center;                                           /*Center justifies content*/
+  align-items: center;                                               /*Center aligns content*/
+  margin-top: 40px;                                                  /*Sets the top margin to 40 pixels*/
+}                                                                    /*Marks the end of a styling section*/
+
+.salesdesc {                                                         /*Styles elements with class 'salesdesc*/
+  text-decoration: none;                                             /*Removes text decoration*/
+  text-align: justify;                                               /*Justify aligns text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
+  background-color: white;                                         /*Sets the background colour to white*/
+  border: 7px solid white;                                         /*Sets the border colour to solid, white and 7 pixels*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Creates a box shadow*/
+  border-radius: 5px;                                                /*Sets the border radius to 5 pixels*/
+  padding: 5px 2px 5px 2px;                                          /*Creates padding for all sides*/
+}                                                                    /*Marks the end of a styling section*/
+
+.salesimg {                                                          /*Styles elements with class 'salesimg*/
+  width: 246px;                                                      /*Sets width to 246 pixels*/
+  border: 7px solid white;                                         /*Sets the border colour to solid, white and 7 pixels*/
+  box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Creates a box shadow*/
+  border-radius: 5px;                                                /*Sets the border radius to 5 pixels*/
+  margin-right: 2.5px;                                               /*Sets the right margin to 5 pixels*/
+}                                                                    /*Marks the end of a styling section*/
+
+.salesdesccontainer{                                                 /*Styles elements with class 'salesdesccontainer*/
+  display: flex;                                                     /*Sets display to flex*/                            
+  justify-content: center;                                           /*Center justifies content*/
+  margin-top: 40px;                                                  /*Sets the top margin to 40 pixels*/
+  margin-left: 2.5px;                                                /*Sets the left margin to 2.5 pixels*/
 }
 
-.video2 {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
+.salescontentrow {                                                   /*Styles elements with class 'salescontentrow*/
+  display: flex;                                                     /*Sets display to flex*/
+  align-items: center;                                               /*Center aligns items*/
+  gap: 5px;                                                          /*Creates a gap of 5 pixels between items*/
 }
 
-.salesdesc {
-  text-decoration: none;
-  text-align: justify;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 5px;
-  padding: 5px 2px 5px 2px;
-}
-
-.salesimg {
-  width: 246px;
-  border: 7px solid white;
-  box-shadow: 0 0.375rem 0.75rem -0.1875rem;
-  border-radius: 5px;
-  margin-right: 2.5px;
-}
-
-.salesdesccontainer{
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  margin-left: 2.5px;
-}
-
-.salescontentrow {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.salesc {
-  text-align: center
-}
+.salesc {                                                            /*Styles elements with class 'salesc*/
+  text-align: center                                                 /*Center aligns text*/
+}                                                                    /*Marks the end of a styling section*/
