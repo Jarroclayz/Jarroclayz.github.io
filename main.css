@@ -25,7 +25,7 @@ h2 {                                                                  /*Styles a
   top: 0;                                                             /*Sets the headers position to top, 0*/
   z-index: 1000;                                                      /*Sets the z index to 1000*/
   width: 100%;                                                        /*Sets the header's width to fill 100% of the screen*/
-  background-color: red;                                            /*Sets the background colour to red*/
+  background-color: red;                                              /*Sets the background colour to red*/
 
  }                                                                    /*Marks the end of a styling section*/
 
@@ -79,7 +79,7 @@ h2 {                                                                  /*Styles a
  ul li a {                                                            /*Styles the content of unlisted list 'a' items*/
   display: block;                                                     /*Sets the display to block*/
   padding: 20px 25px;                                                 /*Sets the padding to 20 pixels top, 25 pixels right*/
-  color: white;                                                     /*Sets the text color to white*/
+  color: white;                                                       /*Sets the text color to white*/
   text-decoration: none;                                              /*Sets text to have no decoration*/
   text-align: center;                                                 /*Center aligns text*/
   font-size: 15px;                                                    /*Sets the font size to 15 pixels*/
@@ -93,7 +93,7 @@ h2 {                                                                  /*Styles a
   position: absolute;                                                 /*Sets the position to absoloute*/
   left: auto;                                                         /*Sets the left positioning to automatic*/
   right: 0;                                                           /*Sets the right positioning to automatic*/
-  background: #FF0000;                                              /*Sets the background colour to red*/
+  background: #FF0000;                                                /*Sets the background colour to red*/
   text-align: center;                                                 /*Center aligns text*/
   max-height: 0;                                                      /*Sets the max height to 0*/
   opacity: 0;                                                         /*Sets the opacity to 0 (no opacity)*/
@@ -108,7 +108,7 @@ h2 {                                                                  /*Styles a
  }                                                                    /*Marks the end of a styling section*/
 
  ul li a:hover {                                                      /*Styles the content of unlisted, list items when they are hovered over*/
-  background: #FF3333;                                              /*Sets the background colour to red*/
+  background: #FF3333;                                                /*Sets the background colour to red*/
  }                                                                    /*Marks the end of a styling section*/
 
  ul li:hover ul.dropdown {                                            /*Styles the content of unlisted, list (hover) ul.dropdown items*/
@@ -140,9 +140,9 @@ h2 {                                                                  /*Styles a
   scroll-snap-type: x mandatory;                                     /*Snaps scroll to x-axis positions mandatorily*/
   scroll-behavior: smooth;                                           /*Enables smooth scrolling behaviour*/
   box-shadow: 0 1.5rem 3rem -0.75rem
-  hsla(0, 0%, 0%, 0.2);                                            /*Applies a shadow to the slider*/
+  hsla(0, 0%, 0%, 0.2);                                              /*Applies a shadow to the slider*/
   border-radius: 0.5rem;                                             /*Rounds corners with 0.5 root em radius*/
-  border: 5px solid white;                                         /*Sets border to 5 pixels solid white*/
+  border: 5px solid white;                                           /*Sets border to 5 pixels solid white*/
 }                                                                    /*Marks the end of a styling section*/                                                                
 
 .slider img{                                                         /*Styles all images inside elements with class 'slider'*/
@@ -166,7 +166,7 @@ h2 {                                                                  /*Styles a
   height: 0.5rem;                                                    /*Sets height to 0.5 root em*/
   cursor: pointer;                                                   /*Changes cursor to pointer on hover*/
   border-radius: 50%;                                                /*Makes elements circular*/
-  background-color: #fff;                                          /*Sets background color to white*/
+  background-color: #fff;                                            /*Sets background color to white*/
   opacity: 0.75;                                                     /*Sets opacity to 75%*/
   transition: opacity ease 0.25s;                                    /*Adds transition effect on opacity over 0.25 seconds*/
 }                                                                    /*Marks the end of a styling section*/
@@ -183,7 +183,7 @@ p {                                                                  /*Styles al
 
 .button1 {                                                           /*Styles elements with class 'button1'*/
   border: none;                                                      /*Removes border*/
-  color: white;                                                    /*Sets text color to white*/
+  color: white;                                                      /*Sets text color to white*/
   padding: 16px 32px;                                                /*Sets padding: 16 pixels top/bottom, 32 pixels left/right*/
   text-align: center;                                                /*Centers text*/
   text-decoration: none;                                             /*Removes text decoration*/
@@ -194,21 +194,21 @@ p {                                                                  /*Styles al
   cursor: pointer;                                                   /*Changes cursor to pointer on hover*/
   border-radius: 5px;                                                /*Rounds corners by 5 pixels*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: blue;                                          /*Sets background color to blue*/
-  color: white;                                                    /*Sets text color to white (redundant but explicit)*/
-  border: 2px solid white;                                         /*Sets border to 2 pixels solid white*/
+  background-color: blue;                                            /*Sets background color to blue*/
+  color: white;                                                      /*Sets text color to white (redundant but explicit)*/
+  border: 2px solid white;                                           /*Sets border to 2 pixels solid white*/
   margin: 0;                                                         /*Overrides margin to 0*/
-  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Adds a subtle box shadow*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                       /*Adds a subtle box shadow*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button1:hover {                                                     /*Styles button1 on hover*/
-  background-color: rgb(66, 66, 255);                              /*Changes background to a brighter blue*/
-  color: white;                                                    /*Keeps text color white*/
+  background-color: rgb(66, 66, 255);                                /*Changes background to a brighter blue*/
+  color: white;                                                      /*Keeps text color white*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button2 {                                                           /*Styles elements with class 'button2'*/
   border: none;                                                      /*Removes border*/
-  color: white;                                                    /*Sets text color to white*/
+  color: white;                                                      /*Sets text color to white*/
   padding: 16px 32px;                                                /*Sets padding*/
   text-align: center;                                                /*Centers text*/
   text-decoration: none;                                             /*Removes text decoration*/
@@ -219,21 +219,21 @@ p {                                                                  /*Styles al
   cursor: pointer;                                                   /*Pointer cursor*/
   border-radius: 5px;                                                /*Rounded corners*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: red;                                           /*Background color red*/
-  color: white;                                                    /*Text color white*/
-  border: 2px solid white;                                         /*Border 2 pixels solid white*/
+  background-color: red;                                             /*Background color red*/
+  color: white;                                                      /*Text color white*/
+  border: 2px solid white;                                           /*Border 2 pixels solid white*/
   margin: 0;                                                         /*Override margin to 0*/
-  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Box shadow*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                       /*Box shadow*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button2:hover {                                                     /*Styles button2 on hover*/
-  background-color: rgb(255, 70, 70);                              /*Changes background to lighter red*/
-  color: white;                                                    /*Keeps text color white*/
+  background-color: rgb(255, 70, 70);                                /*Changes background to lighter red*/
+  color: white;                                                      /*Keeps text color white*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button3 {                                                           /*Styles elements with class 'button3'*/
   border: none;                                                      /*Removes border*/
-  color: white;                                                    /*Text color white*/
+  color: white;                                                      /*Text color white*/
   padding: 16px 32px;                                                /*Padding*/
   text-align: center;                                                /*Centers text*/
   text-decoration: none;                                             /*No text decoration*/
@@ -244,21 +244,21 @@ p {                                                                  /*Styles al
   cursor: pointer;                                                   /*Pointer cursor*/
   border-radius: 5px;                                                /*Rounded corners*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: orange;                                        /*Background color orange*/
-  color: white;                                                    /*Text color white*/
-  border: 2px solid white;                                         /*Border white*/
+  background-color: orange;                                          /*Background color orange*/
+  color: white;                                                      /*Text color white*/
+  border: 2px solid white;                                           /*Border white*/
   margin: 0;                                                         /*Override margin*/
-  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Box shadow*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                       /*Box shadow*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button3:hover {                                                     /*Styles button3 on hover*/
-  background-color: rgb(255, 191, 73);                             /*Changes background to lighter orange*/
-  color: white;                                                    /*Keeps text color white*/
+  background-color: rgb(255, 191, 73);                               /*Changes background to lighter orange*/
+  color: white;                                                      /*Keeps text color white*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button4 {                                                           /*Styles elements with class 'button4'*/
   border: none;                                                      /*Removes border*/
-  color: white;                                                    /*Sets text color to white*/
+  color: white;                                                      /*Sets text color to white*/
   padding: 16px 32px;                                                /*Padding: 16 pixels top/bottom, 32 pixels left/right*/
   text-align: center;                                                /*Centers text*/
   text-decoration: none;                                             /*No text decoration*/
@@ -269,16 +269,16 @@ p {                                                                  /*Styles al
   cursor: pointer;                                                   /*Pointer cursor*/
   border-radius: 5px;                                                /*Rounded corners*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: rgb(3, 226, 22);                               /*Background color bright green*/
-  color: white;                                                    /*Text color white*/
-  border: 2px solid white;                                         /*White border*/
+  background-color: rgb(3, 226, 22);                                 /*Background color bright green*/
+  color: white;                                                      /*Text color white*/
+  border: 2px solid white;                                           /*White border*/
   margin: 0;                                                         /*Overrides margin to 0*/
-  box-shadow: 4px 4px 10px rgb(187, 187, 187);                     /*Box shadow*/
+  box-shadow: 4px 4px 10px rgb(187, 187, 187);                       /*Box shadow*/
 }                                                                    /*Marks the end of a styling section*/
 
 .button4:hover {                                                     /*Styles button4 on hover*/
-  background-color: rgb(103, 224, 113);                            /*Changes background to lighter green*/
-  color: white;                                                    /*Keeps text color white*/
+  background-color: rgb(103, 224, 113);                              /*Changes background to lighter green*/
+  color: white;                                                      /*Keeps text color white*/
 }                                                                    /*Marks the end of a styling section*/
 
 .BUTTONS {                                                           /*Styles container with class 'BUTTONS'*/
@@ -294,8 +294,8 @@ p {                                                                  /*Styles al
   left: 0;                                                           /*Position from left 0*/
   bottom: 0;                                                         /*Position from bottom 0*/
   width: 100%;                                                       /*Full width*/
-  background-color: red;                                           /*Background red*/
-  color: white;                                                    /*Text white*/
+  background-color: red;                                             /*Background red*/
+  color: white;                                                      /*Text white*/
   text-align: center;                                                /*Centered text*/
   margin-top: 40px;                                                  /*Top margin 40 pixels*/
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
@@ -323,8 +323,8 @@ p {                                                                  /*Styles al
   text-decoration: none;                                             /*Removes any text decoration*/
   text-align: center;                                                /*Center aligns text*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: white;                                         /*Sets background color to white*/
-  border: 7px solid white;                                         /*Sets a 7 pixel solid white border*/
+  background-color: white;                                           /*Sets background color to white*/
+  border: 7px solid white;                                           /*Sets a 7 pixel solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Adds a shadow effect with specific offset and blur*/
   border-radius: 5px;                                                /*Rounds the corners with 5 pixel radius*/
   padding: 5px 2px 5px 2px;                                          /*Adds padding: 5 pixels top/bottom, 2 pixels left/right*/
@@ -332,7 +332,7 @@ p {                                                                  /*Styles al
 
 .crtrimageleft {                                                     /*Styles content of class 'crtrimageleft'*/
   height: 300px;                                                     /*Sets the height to 300 pixels*/
-  border: 7px solid white;                                         /*Sets a 7 pixel solid white border*/
+  border: 7px solid white;                                           /*Sets a 7 pixel solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Adds a shadow effect with specific offset and blur*/
   border-radius: 5px;                                                /*Rounds the corners with 5 pixel radius*/
   margin-right: 2.5px;                                               /*Adds right margin of 2.5 pixels*/
@@ -355,8 +355,8 @@ p {                                                                  /*Styles al
   text-decoration: none;                                             /*Removes any text decoration*/
   text-align: center;                                                /*Center aligns text*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: white;                                         /*Background color white*/
-  border: 7px solid white;                                         /*7 pixels solid white border*/
+  background-color: white;                                           /*Background color white*/
+  border: 7px solid white;                                           /*7 pixels solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Shadow effect with specific offset and blur*/
   border-radius: 5px;                                                /*Rounded corners radius 5 pixels*/
   padding: 5px 2px 5px 2px;                                          /*Padding: 5 pixels top/bottom, 2 pixels left/right*/
@@ -364,7 +364,7 @@ p {                                                                  /*Styles al
 
 .crtrimageright {                                                    /*Styles content of class 'crtrimageright'*/
   height: 300px;                                                     /*Height set to 300 pixels*/
-  border: 7px solid white;                                         /*7 pixels solid white border*/
+  border: 7px solid white;                                           /*7 pixels solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Shadow effect with offset and blur*/
   border-radius: 5px;                                                /*Rounded corners radius 5 pixels*/
   margin-right: 2.5px;                                               /*Right margin 2.5 pixels*/
@@ -397,8 +397,8 @@ p {                                                                  /*Styles al
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
   text-align: center;                                                /*Center text*/
   width: 95%;                                                        /*Width 95%*/
-  background-color: white;                                         /*Background white*/
-  border: 7px solid white;                                         /*7 pixels solid white border*/
+  background-color: white;                                           /*Background white*/
+  border: 7px solid white;                                           /*7 pixels solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
   border-radius: 0.5rem;                                             /*Rounded corners radius 0.5 root em*/
 }                                                                    /*Marks the end of a styling section*/
@@ -434,7 +434,7 @@ video {                                                              /*Styles th
   height: auto;                                                      /*Auto height to maintain aspect ratio*/
   display: block;                                                    /*Block display*/
   border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
-  border: 5px solid white;                                         /*5 pixels solid white border*/
+  border: 5px solid white;                                           /*5 pixels solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
   margin-bottom: 2px;                                                /*Bottom margin 2 pixels*/
 }                                                                    /*Marks the end of a styling section*/
@@ -444,7 +444,7 @@ video {                                                              /*Styles th
   width: 150px;                                                      /*Width 150 pixels*/
   -webkit-appearance: none;                                          /*Removes default webkit styling*/
   appearance: none;                                                  /*Removes default styling*/
-  background: red;                                                 /*Background red*/
+  background: red;                                                   /*Background red*/
   height: 5px;                                                       /*Height 5 pixels*/
   border-radius: 5px;                                                /*Rounded corners 5 pixels*/
 }                                                                    /*Marks the end of a styling section*/
@@ -454,7 +454,7 @@ video {                                                              /*Styles th
   appearance: none;                                                  /*Removes default styling*/
   width: 30px;                                                       /*Width 30 pixels*/
   height: 30px;                                                      /*Height 30 pixels*/
-  background: red;                                                 /*Background red*/
+  background: red;                                                   /*Background red*/
   border-radius: 50%;                                                /*Makes the slider icon circular*/
   background-image: url('volume.jpg');                               /*Sets background image*/
   background-size: cover;                                            /*Covers entire thumb area*/
@@ -466,7 +466,7 @@ video {                                                              /*Styles th
 #volumeSlider::-moz-range-thumb {                                    /*Styles the slider thumb for Firefox browsers*/
   width: 30px;                                                       /*Width 30 pixels*/
   height: 30px;                                                      /*Height 30 pixels*/
-  background: red;                                                 /*Background red*/
+  background: red;                                                   /*Background red*/
   border-radius: 50%;                                                /*Circular thumb*/
   background-image: url('volume.jpg');                               /*Background image*/
   background-size: cover;                                            /*Cover entire thumb area*/
@@ -493,8 +493,8 @@ video {                                                              /*Styles th
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
   margin-right: 10px;                                                /*Right margin 10 pixels*/
   margin-left: 10px;                                                 /*Left margin 10 pixels*/
-  background-color: white;                                         /*Background white*/
-  border: 2px solid white;                                         /*2 pixels white border*/
+  background-color: white;                                           /*Background white*/
+  border: 2px solid white;                                           /*2 pixels white border*/
   border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
 }                                                                    /*Marks the end of a styling section*/
@@ -516,8 +516,8 @@ video {                                                              /*Styles th
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
   margin-right: 10px;                                                /*Right margin 10 pixels*/
   margin-left: 10px;                                                 /*Left margin 10 pixels*/
-  background-color: white;                                         /*Background white*/
-  border: 2px solid white;                                         /*2 pixels white border*/
+  background-color: white;                                           /*Background white*/
+  border: 2px solid white;                                           /*2 pixels white border*/
   border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
 }                                                                    /*Marks the end of a styling section*/
@@ -541,7 +541,7 @@ video {                                                              /*Styles th
 
 .lvlupscrn {                                                         /*Styles elements with class 'lvlupscrn'*/
   border-radius: 0.5rem;                                             /*Rounded corners 0.5 root em*/
-  border: 5px solid white;                                         /*5 pixels solid white border*/
+  border: 5px solid white;                                           /*5 pixels solid white border*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Box shadow*/
   height: 300px;                                                     /*Height 300 pixels*/
   display: block;                                                    /*Block display*/
@@ -623,7 +623,7 @@ video {                                                              /*Styles th
 .sales {                                                             /*Styles elements with class 'sales'*/
 display: block;                                                      /*Block layout*/
 margin: auto;                                                        /*Sets margins to auto*/
-border: 5px solid white;                                           /*Sets the border colour to solid, white and 5 pixels*/
+border: 5px solid white;                                             /*Sets the border colour to solid, white and 5 pixels*/
 box-shadow: 0 0.375rem 0.75rem -0.1875rem;                           /*Creates a box shadow*/
 width: 1000px;                                                       /*Sets width to 1000 pixels*/
 margin-top: 50px;                                                    /*Sets top margin to 50 pixels*/
@@ -643,8 +643,8 @@ margin-top: 50px;                                                    /*Sets top 
   text-decoration: none;                                             /*Removes text decoration*/
   text-align: justify;                                               /*Justify aligns text*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      /*Sets the font to 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif*/
-  background-color: white;                                         /*Sets the background colour to white*/
-  border: 7px solid white;                                         /*Sets the border colour to solid, white and 7 pixels*/
+  background-color: white;                                           /*Sets the background colour to white*/
+  border: 7px solid white;                                           /*Sets the border colour to solid, white and 7 pixels*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Creates a box shadow*/
   border-radius: 5px;                                                /*Sets the border radius to 5 pixels*/
   padding: 5px 2px 5px 2px;                                          /*Creates padding for all sides*/
@@ -652,7 +652,7 @@ margin-top: 50px;                                                    /*Sets top 
 
 .salesimg {                                                          /*Styles elements with class 'salesimg*/
   width: 246px;                                                      /*Sets width to 246 pixels*/
-  border: 7px solid white;                                         /*Sets the border colour to solid, white and 7 pixels*/
+  border: 7px solid white;                                           /*Sets the border colour to solid, white and 7 pixels*/
   box-shadow: 0 0.375rem 0.75rem -0.1875rem;                         /*Creates a box shadow*/
   border-radius: 5px;                                                /*Sets the border radius to 5 pixels*/
   margin-right: 2.5px;                                               /*Sets the right margin to 5 pixels*/
